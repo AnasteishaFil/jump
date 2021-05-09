@@ -417,14 +417,14 @@ h2{
 		height: 22vh;
 	}
 	.astronaut{
-		transform: scale(0.7);
+		transform: scale(0.6);
 	}
 	.meteor{
-		transform: scale(0.7);
+		transform: scale(0.6);
 	}
 	.game{
 		width: 100%;
-		height: 35vh;
+		height: 30vh;
 		transform: scale(0.85);
 	}
 }
