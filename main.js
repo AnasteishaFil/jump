@@ -83,7 +83,7 @@ function generateMeteor(){
 	meteor.style.left = meteorPosition + 'px'
 
 	let timerId = setInterval(function(){
-		if (meteorPosition > -10 && meteorPosition < 100 && position < 120){
+		if (meteorPosition > -10 && meteorPosition < 100 && position < 111){
 			clearInterval(timerId)
 			loser.innerHTML = 'Game Over!'
 			GameOver = true
