@@ -79,7 +79,7 @@ function jump(){
 function generateMeteor(){
 	let randomTime = (Math.random() * 3000) + 1000
 	let meteorPosition = 2000
-	if (document.documentElement.clientWidth < 900){meteorPosition = 900}
+	if (document.documentElement.clientWidth < 600){meteorPosition = 600}
 	const meteor = document.createElement('div')
 	if (!GameOver) meteor.classList.add('meteor')
 	game.appendChild(meteor)
